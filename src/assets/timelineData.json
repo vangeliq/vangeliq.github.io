@@ -1,0 +1,26 @@
+[
+  {
+    "year": "2025",
+    "title": "Graduated from University",
+    "description": "Graduated from University of British Columbia with Bachelor's in Computer Science",
+    "location": "Vancouver, BC"
+  },
+  {
+    "year": "2024",
+    "title": "Software Developer Intern",
+    "description": "Developed microservices and analytical dashboards",
+    "location": "Teck Resources"
+  },
+  {
+    "year": "2022",
+    "title": "Full Stack Developer Intern",
+    "description": "Developed full-stack applications using React and Node.js, contributed to microservices architecture",
+    "location": "CGI"
+  },
+  {
+    "year": "2020",
+    "title": "Started Computer Science",
+    "description": "Began studies at University of British Columbia",
+    "location": "Vancouver, BC"
+  }
+]
