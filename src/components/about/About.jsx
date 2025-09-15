@@ -2,7 +2,7 @@ export function About() {
   return (
 <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl lg:text-4xl font-medium mb-8 mt-8">About Me</h2>
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-top">
             <div>
               <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
                 I'm a recent Computer Science graduate from the University of British Columbia, 
