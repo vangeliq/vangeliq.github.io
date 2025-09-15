@@ -3,8 +3,8 @@ import { Emailicon,LinkedInicon, Githubicon } from '../../assets/Icons';
 
 
 function ContactButton({icon: Icon, text, href, className = "", ...props}) {
-  const baseClasses = "inline-flex items-center justify-center px-8 py-3 rounded-md transition-colors";
-  const defaultClasses = "border border-gray-300 text-gray-700 hover:bg-gray-50";
+  const baseClasses = "inline-flex items-center justify-center px-8 py-3 rounded-md";
+  const defaultClasses = "border border-foreground/20 text-foreground-muted hover:text-foreground";
   
   return (
     <a
@@ -27,7 +27,7 @@ export function Contact() {
   return (
 <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl lg:text-4xl font-medium mb-8">Let's Connect</h2>
-          <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-foreground-muted mb-12 max-w-2xl mx-auto leading-relaxed">
             I'm always excited to discuss new opportunities, interesting projects, or just chat about technology. 
             Feel free to reach out if you'd like to collaborate or connect!
           </p>
@@ -36,7 +36,7 @@ export function Contact() {
               icon={Emailicon} 
               text="Send Email" 
               href="mailto:valery@example.com"
-              className="bg-gray-900 text-white hover:bg-gray-800"
+              className="bg-foreground-muted text-background hover:bg-foreground-muted/90"
             />
             <ContactButton 
               icon={LinkedInicon} 
