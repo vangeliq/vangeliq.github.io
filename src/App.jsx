@@ -5,11 +5,12 @@ import { flushSync } from "react-dom";
 import { Hero } from "./components/hero/Hero";
 import { About } from "./components/about/About";
 import { Timeline } from "./components/timeline/Timeline";
+import { Projects } from "./components/projects/Projects";
 import { Contact } from "./components/contact/Contact";
 
 function App() {
   const root = window.document.documentElement;
-  const [isLight, toggleLight] = useState(true);
+  const [isLight, toggleLight] = useState(localStorage.getItem("theme") === "light");
   const ref = useRef(null);
 
   const scrollToSection = (sectionId) => {
@@ -61,7 +62,7 @@ function App() {
         ref={ref}
         className="fixed top-4 right-4 z-50 px-3 py-3 bg-primary/70 text-background rounded-md hover:bg-primary/50  transition-transform duration-150 active:scale-85"
       >
-        {isLight ? <Icons.Theme.DarkModeIcon /> : <Icons.Theme.LightModeIcon />}
+        {isLight ? <Icons.Theme.DarkModeIcon className="w-5 h-5" /> : <Icons.Theme.LightModeIcon className="w-5 h-5" />}
       </button>
 
       <section
@@ -89,8 +90,15 @@ function App() {
       </section>
 
       <section
+        id="projects"
+        className="min-h-screen flex flex-col flex-start py-16 px-6 lg:px-12 bg-background-muted"
+      >
+        <Projects />
+      </section>
+
+      <section
         id="contact"
-        className="min-h-screen flex flex-col justify-center px-6 lg:px-12 bg-background-muted"
+        className="min-h-screen flex flex-col justify-center px-6 lg:px-12"
       >
         <Contact />
       </section>

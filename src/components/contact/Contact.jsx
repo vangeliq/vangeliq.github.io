@@ -35,7 +35,7 @@ export function Contact() {
             <ContactButton 
               icon={Emailicon} 
               text="Send Email" 
-              href="mailto:valery@example.com"
+              href="mailto:valery.e.angelique@gmail.com"
               className="bg-foreground-muted text-background hover:bg-foreground-muted/90"
             />
             <ContactButton 
