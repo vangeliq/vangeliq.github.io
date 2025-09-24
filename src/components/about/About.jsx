@@ -5,13 +5,13 @@ export function About() {
           <div className="grid lg:grid-cols-2 gap-12 items-top">
             <div className="text-lg text-foreground-muted leading-relaxed">
               <p className="text-lg text-foreground-muted mb-6 leading-relaxed">
-                I'm a recent Computer Science graduate from the University of British Columbia.
+                As a lifelong learner I love exploring new technologies and frameworks, and I'm always eager to take on new challenges that push me to grow both personally and professionally.
               </p>
               <p className="mb-6 ">
                 My passion lies in creating interdisciplinary projects that blend multiple facets of software development, from web development to AI/ML integration, and DevOps practices.
               </p>
               <p className="text-lg text-foreground-muted leading-relaxed">
-                When I'm not coding, you can find me walking around the city of Vancouver, starting a crafts project, or attending conferences and local meetups that I have no business being in.
+                When I'm not coding, you can find me walking around the city of Vancouver, starting a crafts project, or attending conferences and local meetups.
               </p>
             </div>
             <div className="p-8 rounded-lg border border-foreground/10 shadow-sm">

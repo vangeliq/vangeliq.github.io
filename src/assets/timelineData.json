@@ -12,15 +12,15 @@
     "location": "Teck Resources"
   },
   {
-    "year": "2022",
-    "title": "Full Stack Developer Intern",
-    "description": "Developed full-stack applications using React and Node.js on the Identity and Access Management team",
-    "location": "CGI"
+    "year": "2023",
+    "title": "Operations Engineer WorkLearn",
+    "description": "Created data integration tools",
+    "location": "UBC"
   },
   {
-    "year": "2020",
-    "title": "Started Computer Science",
-    "description": "Began studies at University of British Columbia",
-    "location": "Vancouver, BC"
+    "year": "2022",
+    "title": "Full Stack Developer Intern",
+    "description": "Developed full-stack applications on the Identity and Access Management team",
+    "location": "CGI"
   }
 ]

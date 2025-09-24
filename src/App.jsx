@@ -2,6 +2,8 @@ import "./styles/globals.css";
 import Icons from "./assets/Icons";
 import { useState, useRef } from "react";
 import { flushSync } from "react-dom";
+import * as motion from "motion/react-client"
+
 import { Hero } from "./components/hero/Hero";
 import { About } from "./components/about/About";
 import { Timeline } from "./components/timeline/Timeline";

@@ -7,7 +7,7 @@ export function Hero({scrollToSection}) {
             Hi! I'm Valery
           </h1>
           <p className="text-lg text-foreground-muted/85 mb-8 max-w-2xl leading-relaxed">
-I'm a computer science graduate from UBC with experience in full-stack development, data analytics, machine learning, and automation.
+I'm a CS new grad from UBC with experience in full-stack development, data analytics, machine learning, and automation.
 
 <br/>
 <br/>
